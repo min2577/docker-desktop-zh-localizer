@@ -1,0 +1,20 @@
+name: 翻译遗漏或错误
+description: 提交经过脱敏的界面文案问题
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Docker Desktop 版本与构建号
+    validations:
+      required: true
+  - type: textarea
+    id: original
+    attributes:
+      label: 原文、所在页面与期望译文
+      description: 请勿提交账号、API key、私人日志、数据库或未脱敏的用户内容。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 复现步骤或脱敏截图

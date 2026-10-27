@@ -1,0 +1,10 @@
+{
+  "platform": "win32",
+  "arch": "x64",
+  "desktopVersion": "4.68.0",
+  "productVersion": "4.68.0.223695",
+  "originalArchiveSha256": "8c192db97a22f3259089fda381b6fdc761a21ae7d297ce8d717308045751f555",
+  "originalExeSha256": "8bc2d2e9814213fb528e8ac995bbe5dd7d577b3d22799033081cf90590071e4b",
+  "rendererEntry": "build/desktop-ui-build/main.rend.js",
+  "status": "experimental; automated DOM and archive tests; full visual acceptance pending"
+}
